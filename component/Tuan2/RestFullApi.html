@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhập thông tin của người dùng</title>
+</head>
+<body>
+    <h1>Nhập các thông tin cần thiết về bản thân vào</h1>
+    <form action="http://localhost:8081/getInfomation" method="get">
+        
+        <label for="">Nhập tên của bạn</label> <br>
+        <input type="text" name="fullname" id=""> <br>
+        <label for="">Nhập sdt vào</label> <br>
+        <input type="text" name="sdt" id=""> <br>
+        <label for="">Nhập email vào</label> <br>
+        <input type="text" name="email" id=""> <br>
+        <select name="op" id="">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JS">JS</option>
+            <option value="React Js">React Js</option>
+        </select>
+        <label for=""></label> <br>
+        <input type="submit" value="Submit" name="" id="">
+    </form>
+    <form action="http://localhost:8081/post_dl" method="post">
+        <label for="">Nhập firstName</label> <br>
+        <input type="text" name="firstName" id=""> <br>
+        <label for="">Nhập lastName</label> <br>
+        <input type="text" name="lastName" id=""> <br>
+        <label for=""></label> <br>
+        <input  name="" id="" class="btn btn-primary" type="submit" value="Submit">
+    </form>
+</body>
+</html>
